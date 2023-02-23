@@ -1,0 +1,49 @@
+body {
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.hover:hover {
+    cursor: pointer;
+}
+.nav-custom {
+    padding: 10px;
+    background-color: #000;
+}
+.navbar-inner {
+    width: 85%;
+    margin: auto;
+}
+.navbar-brand {
+    font-size: 24px;
+}
+.nav-custom .nav-item{
+    color:#e10c0c !important;
+    padding-left: 30px !important
+}
+.nav-custom .nav-item {
+    color:beige !important
+    padding-left: 20px !important
+}
+.banner {
+    background-image: image.png;
+    background-size: cover;
+    background-repeat: no repeat;
+    padding: 20%
+}
+.banner-heading {
+    font-size: 100px;
+    text-align: center;
+    color:#000;
+}
+.main-body{
+    padding-top: 10%;
+
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.date heading {
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 5px;
+    background-color: #f4f4f4;
+    border: 2px solid rgb(red, green, blue)
+}
