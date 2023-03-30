@@ -1,0 +1,206 @@
+ {
+    
+}
+
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    font-family: system-ui,  Roboto;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 130px;
+}
+
+.navbrand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2%;
+    font-size: 35px;
+}
+
+.navbar-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 75%;
+    height: 100%;
+    margin-right: 5%;
+}
+
+.nav-link {
+    font-size: 25px;
+    color: antiquewhite;
+}
+
+.nav-option {
+    margin: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(192, 68, 68);
+}
+
+.background {
+    z-index: -1;
+    width: 100%;
+    position: fixed;
+    margin-top: 0px;
+}
+
+.featshows {
+    z-index: 1;
+    height: 1100px;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+    color: antiquewhite;
+    display: flex;
+    font-size: 8em;
+    text-shadow: -1px 1px 2px black,
+                1px 1px 0 black,
+                1px -1px 0 black,
+                -1px -1px 0 black;
+}
+
+.year {
+    align-items: center;
+    width: 63%;
+    border: 1px solid black;
+    background-color: rgb(250, 247, 247);
+    margin-top: 4em;
+    margin-bottom: 20px;
+    border-color: darkgray;
+}
+
+.indent {
+    margin-left: 75px;
+}
+
+.box {
+    background-color: white;
+    color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.show {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+    padding: 25px;
+    background-color: white;
+    border-bottom: 3px solid gray;
+}
+
+.img-show {
+    padding: 30px;
+}
+
+.size-img {
+    height: 225px;
+    margin-right: 50px;
+    width: 300px;
+}
+
+.show-description {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10%;
+    width: 500px;
+}
+
+.more {
+    background-color: rgb(246, 186, 33);
+    width: 175px;
+    height: 80px;
+    font-size: 34px;
+    margin-top: 100px;
+    color: white;
+}
+
+.bottom {
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    justify-content: space-evenly;
+}
+
+.map {
+    padding: 2%;
+    padding-left: 100px;
+}
+
+.mapimg {
+    width: 350px;
+}
+
+.foot-info {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 1em;
+}
+
+.footshows {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 1em;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 1em;
+}
+
+.foothead {
+    font-size: 4em;
+}
+
+.tiny {
+    margin: 25px;
+}
